@@ -20,7 +20,7 @@ RUN chmod +x /usr/bin/dumb-init
 
 COPY /build /build
 
-COPY 18-01-24-P12-APPSERVER_LINUX.ZIP /build/
+COPY 18-07-27-P12_APPSERVER_LINUX.ZIP /build/
 
 RUN /build/setup.sh
 
